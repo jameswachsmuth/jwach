@@ -19,6 +19,8 @@
     text-align: center;
     background-color: #f7f7f2;
      font-family: "EB Garamond";
+    display: flex;
+    flex-direction: column;
    }
    .picture-holder{
     column-count: 3;
@@ -50,6 +52,18 @@
 
     -webkit-mask: url('spiral.svg') no-repeat center / contain;
     mask: url('spiral.svg') no-repeat center / contain;
+
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+     main {
+    flex: 1;
+  }
+
+    
    }
    
   </style>
@@ -81,6 +95,7 @@
     </div>
     
  </div>
+  <footer> wachsmuthjames@gmail.com                                                                       2026 </footer>
  </body>
 
 </html>
